@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include assessment_app *.css
+recursive-include assessment_app *.csv
+recursive-include assessment_app *.html
+recursive-include assessment_app *.ico
+recursive-include assessment_app *.js
+recursive-include assessment_app *.json
+recursive-include assessment_app *.md
+recursive-include assessment_app *.png
+recursive-include assessment_app *.py
+recursive-include assessment_app *.svg
+recursive-include assessment_app *.txt
+recursive-exclude assessment_app *.pyc
